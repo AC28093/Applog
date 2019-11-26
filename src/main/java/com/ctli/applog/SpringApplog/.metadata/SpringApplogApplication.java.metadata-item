@@ -1,0 +1,13 @@
+version=10.2
+item-uid=101508288
+item-spec=43485F44524956523A3348574B573420535052494E474150504C4F474150504C49434154494F4E204A4156412D3239383233343239395836303733335831302E412D5352433B32
+file-version=2
+checksum=2311aa62d013d9499b7a9534dbe12314
+fetch-size=699
+mtime=1560783176
+is-extracted=0
+is-headersubst=0
+item-status=4F50454E
+relpath=src/main/java/com/ctli/applog/SpringApplog/SpringApplogApplication.java
+project=43485F44524956523A544F4F4C53
+project-uid=91296462

@@ -1,0 +1,13 @@
+version=10.2
+item-uid=101525764
+item-spec=43485F44524956523A3348574B5734204150504C4F47504F4A4F204A4156412D3239383233343331375836303733335832322E412D5352433B32
+file-version=2
+checksum=bdcf2ce55707f106786344f5dde84f8d
+fetch-size=2003
+mtime=1561460275
+is-extracted=0
+is-headersubst=0
+item-status=4F50454E
+relpath=src/main/java/com/ctli/applog/SpringApplog/model/ApplogPojo.java
+project=43485F44524956523A544F4F4C53
+project-uid=91296462

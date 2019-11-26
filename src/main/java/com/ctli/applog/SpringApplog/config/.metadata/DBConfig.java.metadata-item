@@ -1,0 +1,13 @@
+version=10.2
+item-uid=100561935
+item-spec=43485F44524956523A3348574B5734204442434F4E464947204A4156412D3239383233343332305836303733335832362E412D5352433B31
+file-version=1
+checksum=ecbf065c8d46aa28e690249a023234c6
+fetch-size=3684
+mtime=1560439944
+is-extracted=0
+is-headersubst=0
+item-status=4F50454E
+relpath=src/main/java/com/ctli/applog/SpringApplog/config/DBConfig.java
+project=43485F44524956523A544F4F4C53
+project-uid=91296462

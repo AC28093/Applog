@@ -1,0 +1,13 @@
+version=10.2
+item-uid=101530386
+item-spec=43485F44524956523A3348574B5734204150504C4F47434F4E54524F4C4C4552204A4156412D3239383233343332315836303733335833302E412D5352433B33
+file-version=3
+checksum=dfea0c59704e48028c526b6b2a9db8a9
+fetch-size=3758
+mtime=1562334941
+is-extracted=0
+is-headersubst=0
+item-status=4F50454E
+relpath=src/main/java/com/ctli/applog/SpringApplog/controller/ApplogController.java
+project=43485F44524956523A544F4F4C53
+project-uid=91296462

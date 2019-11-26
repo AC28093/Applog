@@ -1,0 +1,13 @@
+version=10.2
+item-uid=101534673
+item-spec=43485F44524956523A3348574B5734204150504C4F4744414F204A4156412D3239383233343332315836303733335833362E412D5352433B33
+file-version=3
+checksum=7b50256ffede64858fd786ddfe4aac68
+fetch-size=10328
+mtime=1562748130
+is-extracted=0
+is-headersubst=0
+item-status=4F50454E
+relpath=src/main/java/com/ctli/applog/SpringApplog/repo/ApplogDao.java
+project=43485F44524956523A544F4F4C53
+project-uid=91296462

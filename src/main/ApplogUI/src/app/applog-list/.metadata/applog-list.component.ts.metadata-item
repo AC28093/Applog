@@ -1,0 +1,13 @@
+version=10.2
+item-uid=101527476
+item-spec=43485F44524956523A3348574B5734204150504C4F47204C49535420434F4D504F4E454E542054532D3330303936323137395832393034325831373530302E412D4441543B32
+file-version=2
+checksum=426b3f3cc3831c6ad2ee39905f066f8c
+fetch-size=2483
+mtime=1563887004
+is-extracted=0
+is-headersubst=0
+item-status=4F50454E
+relpath=src/main/ApplogUI/src/app/applog-list/applog-list.component.ts
+project=43485F44524956523A544F4F4C53
+project-uid=91296462

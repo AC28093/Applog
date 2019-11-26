@@ -1,0 +1,13 @@
+version=10.2
+item-uid=101116391
+item-spec=43485F44524956523A3348574B57342041505020434F4D504F4E454E5420535045432054532D333030393630353739583239303432583838362E412D4441543B31
+file-version=1
+checksum=44dbbeaf2eff2efedfc297b21651bf99
+fetch-size=984
+mtime=1560953138
+is-extracted=0
+is-headersubst=0
+item-status=4F50454E
+relpath=src/main/ApplogUI/src/app/app.component.spec.ts
+project=43485F44524956523A544F4F4C53
+project-uid=91296462

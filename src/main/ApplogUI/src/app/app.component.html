@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">IVR Applog Viewer</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Environments
+        </a>
+        <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+          <li class="dropdown-item bg-dark" *ngFor="let env of envs" >
+            <a class="nav-link " [routerLink]="['/appLog/list',env.id]" (click)="onclick(env.id,env.name)" skipLocationChange>{{env.name}}</a>
+          </li>
+
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="navbar-brand">{{envUsed}}</div>
+</nav>
+<router-outlet></router-outlet>
+
+

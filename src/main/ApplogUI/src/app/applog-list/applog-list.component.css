@@ -1,0 +1,61 @@
+/*.ngx-datatable.fixed-header .datatable-header .datatable-header-inner .datatable-header-cell {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: normal !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+}ng2-smart-table { overflow-y: auto; }
+table { overflow-y: scroll; }*/
+img {
+  height: 250px;
+  left: 50%;
+  margin-top: -125px;
+  margin-left: -125px;
+  position: absolute;
+  top: 50%;
+  width: 250px;
+}
+.labelClass {
+  font-size: 23px;
+  font-weight: bold;
+  color: #336699;
+}
+.rowClass {
+  border-color: initial;
+  border-image: initial;
+  border-width: 2px;
+  border-spacing: 2px;
+  border-color: grey;
+  border-top: 1px solid #dee2e6;
+  height: 50px;
+  overflow-y: auto;
+}
+.table-container { height: 600px; overflow-y: auto; border-top: 1px solid #dee2e6; }
+:host /deep/ ng2-smart-table table {
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+  border-width: 2px;
+  border-spacing: 2px;
+  border-color: grey; /* border of the big table*/
+}
+/* grid lines */
+:host /deep/ ng2-smart-table table > tbody {
+  overflow-y: scroll;
+
+}
+/* grid lines */
+:host /deep/ ng2-smart-table table > tbody > tr > td {
+  box-sizing: border-box;
+  border: 1px solid grey;
+}
+
+/* headers grid color*/
+:host /deep/ ng2-smart-table thead > tr > th  {
+  border: 1px solid grey;
+  background-color: transparent;
+}
+/*font size*/
+:host /deep/ ng2-smart-table {
+  font-size:16px;
+}

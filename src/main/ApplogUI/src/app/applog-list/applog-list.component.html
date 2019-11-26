@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="row rowClass" *ngIf="enableSearch">
+    <div class="col">
+    <label class="labelClass">Custom Search</label>
+    </div>
+    <div class="col">
+    <select (change)="onchange($event.target.value)" class="form-control">
+      <option [value]="item.id" *ngFor="let item of selectItems">{{item.name}}</option>
+    </select>
+    </div>
+      <div class="col">
+     <!--  (keyup.enter)="fetchInfo(inputValue.value)"
+           (blur)="fetchInfo(inputValue.value);  inputValue.value='' -->
+    <input #inputValue type="text" placeholder="value" class="form-control" required>
+      </div>
+        <div class="col">
+    <button class="btn btn-primary" (click)="fetchInfo(inputValue.value)" >Search</button>
+        </div>
+        <div class="col">
+    <button class="btn btn-primary" (click)="clear()" >Clear</button>
+        </div>
+  </div>
+  <div table-container>
+    <img *ngIf="showSpin" src="assets/tenor.gif" />
+    <ng2-smart-table [settings]="settings" [source]="this.appLogs$" (userRowSelect)="rowSelection($event)" *ngIf="enableSearch">
+    </ng2-smart-table>
+  </div>
+    <div class="row" *ngIf="enableSearch">
+      <div class="col">
+           <label class="labelClass">ContextInfo</label>
+    <textarea class="form-control" rows="20" cols="10" disabled="disabled">{{contextInfo}}</textarea>
+      </div>
+        <div class="col">
+             <label class="labelClass">StackTrace</label>
+             <textarea class="form-control"  rows="20" cols="10" disabled="disabled">{{stackTrace}}</textarea>
+        </div>
+    </div>
+</div>
